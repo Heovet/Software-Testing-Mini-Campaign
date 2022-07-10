@@ -55,7 +55,7 @@ public class processCSV {
             out = compare(filePath1, filePath2);
             System.out.println(out);
         } catch (IOException e) {
-            System.out.println("Comparison Failed");
+            System.out.println("Comparison Failed, file path invalid");
             e.printStackTrace();
         }
 
@@ -65,7 +65,7 @@ public class processCSV {
             if (myObj.createNewFile()) {
                 System.out.println("File created: " + myObj.getName());
             } else {
-                System.out.println("File already exists.");
+                System.out.println("File already exists, overwriting...");
             }
         } catch (IOException e) {
             System.out.println("Creation of File Failed");
