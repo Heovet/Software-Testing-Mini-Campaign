@@ -12,6 +12,7 @@ https://www.w3schools.com/java/java_files_create.asp
 
 
 Equivalence Classes:
+
 Files entered are invalid:
 
 File not a CSV: This enables us to return the correct error message so that the user is able to correctly identify the reason the program does not work.
