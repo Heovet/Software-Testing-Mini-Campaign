@@ -1,0 +1,17 @@
+"First File",Customer ID#,Account No.,Currency,Type,Balance,"Second File",Customer ID#,Account No.,Currency,Type,Balance
+"First File",,,,,,"Second File",ID2,BOS85992,AUD,CURRENT,989898
+"First File",ID3,BOS656613,USD,CURRENT,595290,"Second File",,,,,
+"First File",,,,,,"Second File",ID14,BOS2320614,SGD,SAVINGS,15614
+"First File",,,,,,"Second File",ID15,BOS3343815,SEK,SAVINGS,974080
+"First File",,,,,,"Second File",ID16,BOS6687816,HKD,SAVINGS,861228
+"First File",ID20,BOS4858520,AUD,SAVINGS,529897,"Second File",,,,,
+"First File",ID21,BOS7780921,SGD,CURRENT,740159,"Second File",,,,,
+"First File",ID22,BOS9222022,SEK,CURRENT,111290,"Second File",,,,,
+"First File",ID23,BOS2996223,AUD,SAVINGS,568676,"Second File",,,,,
+"First File",ID24,BOS7305924,INR,CURRENT,506455,"Second File",,,,,
+"First File",,,,,,"Second File",ID28,BOS4478228,SGD,CURRENT,524550
+"First File",,,,,,"Second File",ID29,BOS3351029,EUR,CURRENT,678598
+"First File",ID36,BOS952736,USD,CURRENT,832935,"Second File",,,,,
+"First File",,,,,,"Second File",ID44,BOS3387844,CHF,CURRENT,680976
+"First File",ID47,BOS3467947,USD,SAVINGS,953858,"Second File",,,,,
+"First File",None,None,None,None,None,,"Second File",ID49,BOS3852449,USD,SAVINGS,223136
