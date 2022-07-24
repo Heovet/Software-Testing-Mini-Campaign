@@ -23,9 +23,9 @@ No differences, half the file is different and file is completely different: Thi
 
 3) Files of different lengths:
 
-File 1 is empty, File 2 is empty, File 1 is half the length of File 2, File 1 and 2 has random empty lines: This test the main while loop which should identify when one file ends and appends the remaining values as not present in the other file. File 1 and 2 being empty represent boundary points. Meanwhile, File 1 being half the length of File 2 (and a test case for vice versa) would be one middle point. The last middle point is if File 1 and 2 have random empty lines. This analysis was actually helpful as I have missed the potential of both files conicdentally containing a blank space at the same line in the middle of them. This would preemptively terminate the program and result in the identified errors being truncated too early.
+File 1 is empty, File 1 is half the length of File 2, File 1 and 2 has random empty lines: This test the main while loop which should identify when one file ends and appends the remaining values as not present in the other file. File 1 and 2 being empty represent boundary points. Meanwhile, File 1 being half the length of File 2 (and a test case for vice versa) would be one middle point. The last middle point is if File 1 and 2 have random empty lines. This analysis was actually helpful as I have missed the potential of both files conicdentally containing a blank space at the same line in the middle of them (After implementing the JUnit testing, it appears that this test was still technically covered). This would preemptively terminate the program and result in the identified errors being truncated too early.
 
 4) Files compared have different variables: 
 
-File 1 has some missing columns, File 2 has some missing columns, both files have some missing columns:
+File 1 has some missing columns, both files have some missing columns:
 In this example, the output expected should contain all values for both files. File 1 and missing columns are considered the end cases while them both having some missing cases represent the middle value.
